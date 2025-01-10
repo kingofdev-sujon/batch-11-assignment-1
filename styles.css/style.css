@@ -1,0 +1,46 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+
+/* banner-section-design */
+.banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 50px;
+    border-radius: 24px;
+    margin: 0px 120px;
+}
+
+.banner-content h4 {
+    color: #0E0E0E;
+    opacity: 50%;
+    font-weight: 24px;
+    font-size: 24px;
+
+}
+
+.banner-content,[type="h1"]{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 43px;
+
+}
+
+.banner-button {
+    color: white;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    padding: 24px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.banner-img{
+    width: 474.03px;
+    height: 400px;
+}
