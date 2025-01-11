@@ -44,3 +44,143 @@
     width: 474.03px;
     height: 400px;
 }
+
+/* pillars card section styles */
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 20px;
+    background-color: white;
+    margin: 35px 160px;
+  }
+
+  .card{
+    border-radius: 16px;
+    border: 0.5px solid #615f5f51;
+    padding: 24px 214px 24px 24px;
+    margin-top: 10px;
+  }
+
+.bd2{
+    font-size: 35px;
+    margin: 0 160px;
+    margin-bottom: 10px;
+}
+.card h3 {
+    font-size: 25px;
+    color: #0e0e0ed5;
+}
+
+.card p {
+    opacity: 63%;
+}
+
+/* vision section styles start here */
+
+.vision {
+    /* margin: 0 auto; */
+    /* padding: 40px 0; */
+  }
+  
+  .vision-header h2 {
+    font-size: 40px;
+    margin:0px 160px;
+  }
+  
+  .vision-header p {
+    margin:0px 160px;
+    font-size: 20px;
+    margin-top: 24px;
+    opacity: 65%;
+    
+  }
+  
+  /* Cards Container */
+
+  .vision-cards {
+    display: flex;
+    gap: 24px;
+    margin: 32px 160px;
+
+  }
+  
+  /* Individual Card */
+  .vision-card {
+    background-color: #5490F5;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    /* width: 300px; */
+    text-align: left;
+  }
+  
+  .vision-card img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+  }
+  
+  .vision-card h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .vision-card p {
+    font-size: 21px;
+    color: #0e0e0e9b;
+    margin-bottom: 40px;
+  }
+  
+  .vision-card button:hover {
+    background-color: #b33c00;
+  }
+  
+  /* Colors for Cards */
+  .card-blue {
+    background-color: #e8f1ff;
+  }
+  
+  .card-green {
+    background-color: #C6E4D6;
+  }
+  
+  .card-yellow {
+    background-color: #F7EBCF;
+  }
+
+#btn-blue {
+    background-color: #5490F5;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;   
+}
+
+#btn-green {
+    background-color: #09A15C;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+#btn-yellow {
+    background-color: #FFC239;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;  
+}
+
+/* vision of future style ends here */
