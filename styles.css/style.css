@@ -1,4 +1,4 @@
-.{
+* {
     margin: 0;
     padding: 0;
 }
@@ -12,6 +12,7 @@
     padding: 50px;
     border-radius: 24px;
     margin: 0px 120px;
+    margin-top: 40px;
 }
 
 .banner-content h4 {
@@ -67,6 +68,7 @@
     font-size: 35px;
     margin: 0 160px;
     margin-bottom: 10px;
+    margin-top: 70px;
 }
 .card h3 {
     font-size: 25px;
@@ -78,15 +80,10 @@
 }
 
 /* vision section styles start here */
-
-.vision {
-    /* margin: 0 auto; */
-    /* padding: 40px 0; */
-  }
-  
   .vision-header h2 {
     font-size: 40px;
     margin:0px 160px;
+    margin-top: 80px;
   }
   
   .vision-header p {
